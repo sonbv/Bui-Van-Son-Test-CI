@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// console.log('Homework 1');
+// console.log('Questiion 1. What are var and const in JavaScript?');
+// console.log('Answer: var and const are the operators to declare variables in Javascript');
+// console.log('2.	What are the differences between let and var?');
+// console.log('Answer: let limits the scope for the variables which is declared in the function block to be used in that block only while any variable declared with var outside a function block is available for use in the whole window. Let can be updated but cannot be re-declared while var can be re-declared and updated')
+// console.log('3. What are the differences between let and const?');
+// console.log('Answer: The value of a variable declared with const remains the same and cannot be updated or re-declared while the value declared but let can be updated');
+// console.log('4. What to use in what cases?');
+// console.log('Answer: var is used when we want variables to work outside the scope, let is used when we need the variables to be exact, const is used when we want the variables to be the samesame value');
+
+// console.log('Homework 2')
+// console.log('1. What is Boolean?');
+// console.log('Boolean is the type of variables with only two values: true and false');
+// console.log('2. What results in Boolean?');
+// console.log('The result in Boolean is only true or false');
+
+// console.log('Homework 3');
+// console.log('a. Print out 7 numbers, starting from 0, no user input)');
+// for (let x = 0; x<7; x++) {console.log(x);}
+
+// console.log('b. Print out n numbers, starting from 0, n entered by user');
+// let n = prompt('Enter a number?');
+// for (let y = 0; y<n; y++) {console.log(y);}
+
+// console.log('c. Print out a sequence of numbers, starting from 3, ending before n, n entered by user');
+// let n = prompt('Enter n');
+// for (let z = 3; z<n; z++) {console.log(z);}
+
+// console.log('d. Print out a sequence of numbers, starting from c, ending before n, c and n entered by user');
+// let n = prompt('Enter n');
+// let c = prompt('Enter c');
+// for (let a = c;a<n;a++) {console.log(a);}
+
+// console.log('e. Print out a sequence of numbers, starting from c, ending before n, stepping by 3, c and n entered by user');
+// let n = prompt('Enter n');
+// let c = prompt('Enter c');
+// for (let b = c; b<n; b+=3) {console.log(b);}
+
+// console.log('f. Print out a sequence of numbers, starting from c, ending before n, stepping by s. c, n and  s entered by user');
+// let n = prompt('Enter n');
+// let c = prompt('Enter c');
+// let s = prompt('Enter s');
+// for (let a = c;a<n;a+=s) {console.log(a);}
+
+// console.log('Homework 4: Write a program to calculate the factorial of n: (1 * 2 * 3 *... *n), n enter by user');
+// let n = prompt('Enter a number');
+// y = 1
+// for (let x = 1;x<n;x++)
+// {
+//     y = y*(x+1);
+// }
+// alert('The factorial of '+ n +' is '+y);
+
+// console.log('Homework 5: 1.	Write a program asking users their age, and then decide if they are old enough to view a 14+ content')
+// let age = prompt('How old are you?');
+// if (age>14);
+// alert('Enjoy');
+// alert('You are not old enough to view this content'));
+
+// console.log('Homework 6: 1.	Write a program asking user to enter a number, x, then check if x is in the lower half or higher half of 0 - 9 range');
+// let x = prompt('Enter a number');
+// if (x>9/2)
+// alert('Higher half of 9');
+// alert('Lower half of 9');
+
+// console.log('Homework 7: Write a program asking user to enter two numbers, x and n, then check if x is in lower half or higher half of n');
+// let n = prompt('n =');
+// let x = prompt('x =');
+// if (x<n/2)
+// alert(x +' is in the lower half of ' + n);
+// alert(x +' is in the higher half of ' + n);
+
+// console.log('Homework 8: Write a script to check if a number is even (divisible by 2) or odd number');
+// x = prompt('x =');
+// if (x%2 == 0)
+// alert(x +' is an even number');
+// alert(x +' is an odd number');
+
+// console.log('Homework 9a: Write a program to print out 6 L’s and H’s, half L’s, half H’s (L means low, H means high)')
+// let low = "L";
+// let high = "H";
+// for (let x=1; x <= 3;x++){
+//     console.log(low);
+//     console.log(high);
+// }
+
+// console.log('Homework 9b: Write a program to print out n L’s and H’s in total, n entered by user');
+// let n = prompt('Enter the total number of Ls and Hs?');
+// let low = "L";
+// let high = "H";
+// for (let x = 1; x<=Math.ceil(n/2);x++){
+//     console.log(low);}
+// for (let x = 1; x<=Math.floor(n/2);x++){
+//     console.log(high);}
+
+// console.log('Homework 9c: Write a program to print out 8 1’s and 0’s in total, consecutively');
+// let a = "1";
+// let b = "0";
+// for (let x = 0; x<8/2;x++){
+//     console.log(a);}
+// for (let x = 0; x<8/2;x++){
+    // console.log(b);}
+
+// console.log('Homework 9c: Write a program to print out n 1’s and 0’s in total, consecutively, n entered by user');
+// let n = prompt('Enter the total number of 1`s and 0`s?');
+// let a = "1";
+// let b = "0";
+// for (let x = 1; x<=Math.ceil(n/2);x++){
+//     console.log(a);}
+// for (let x = 1; x<=Math.floor(n/2);x++){
+//     console.log(b);}
+
+// console.log('Homework 10: Write a script to calculate the BMI (Body Mass Index) of a person');
+// let a = prompt('Your weight in kg?');
+// let b = prompt('Your height in cm?');
+// let c = a/(b*b/10000);
+// alert('Your BMI is ' + c);
+// if(c<16)
+// alert('You are severely underweight');
+// else if(c<18.5)
+// alert('You are underweight');
+// else if(c<25)
+// alert('You are normal');
+// else if(c<30)
+// alert('You are overweight');
+// alert('You are obese')
+
+// console.log('Homework 11: Use JS Turtle, to draw a square');
+// function drawSquare(){
+//     for(let x = 1; x<=4; x++) {
+//     fd(200)
+//     lt(90)
+// }
+// }
+// drawSquare();
+
+// console.log('Homework 11: Use JS Turtle, to draw a triangle');
+// function drawTriangle(){
+//     for(let x = 1; x<=3; x++) {
+//     fd(200)
+//     lt(120)
+// }
+// }
+// drawTriangle();
+
+// console.log('Homework 11: Use JS Turtle, to draw a pentagon');
+// function drawPentagon(){
+//     for(let x = 1; x<=5; x++) {
+//     fd(200)
+//     lt(72)
+// }
+// }
+// drawPentagon();
+
+// console.log('Homework 11: Use JS Turtle, to draw a hexagon');
+// function drawHexagon(){
+//     for(let x = 1; x<=6; x++) {
+//     fd(200)
+//     lt(60)
+// }
+// }
+// drawHexagon();
+
+console.log('Homework 12: Use JS Turtle to draw a polygon, the number of polygon’s edges entered by users');
+function draw(){
+    let x = prompt('Enter the number of polygon`s edges');
+for(let a = 1; a<=x; a++) {
+    fd(200)
+    lt(360/x)
+}
+}
+draw();
+
+</script>
+</body>
+</html>
