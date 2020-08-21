@@ -1,27 +1,30 @@
-console.log('Write a script to simulate a clothes shop, asking and performing certain tasks from users')
+let Item = ["Jeans", "T-Shirt", "Socks"];
 
-
-let item = [Jeans, T-shirt, Socks];
-let item = prompt('Hi there, welcome to shop admin panel. What do you want (C, R, U, D)?');
-let answer = [c, r, u, d]
-
-while (true)
-{
-[c, r, u, d]
-}
-
-let n;
-while (true ) {
-    n = Number(prompt('How many legs does a spider have? 1. None; 2. 4 legs; 3. 8 legs; 4. 12 legs'));
-    if (n<5 && n>0) {
-        if (n = 3) {
-            alert('Bravo, you are correct')
-            break;
-           }   else {
-                alert('Good luck next time');
+while (true) {
+    let userEnter = prompt("Hi there, welcome to shop admin panel. What do you want (C, R, U, D)?");
+    userEnter = userEnter.toLowerCase();
+    if (userEnter == "c") {
+        while (true) {
+            let newItem = prompt("Enter the name of the new item");
+            if (newItem == "") {
             }
-        break;
-     } else {
-            alert('Invalide choice, the answer must be 1, 2, 3 or 4')
+            else {
+                alert("Done");
+                Item.push(newItem);
+                break;
+            }
         }
+    } else if (userEnter == "r") {
+        alert(`The current items are \n ${Item}`)
+    } else if (userEnter == "u") {
+        let updatePos = prompt("Enter the position you want to update");
+        let updateItem = prompt("Enter the new name");
+        Item[position] = updateItem;
+    } else if (userEnter == "d") {
+        let deletePos = prompt("Enter the position you want to delete");
+        alert("Done");
+        Item.splice(deletePos, 1);
+    } else {
+        alert("This command is not supported");
     }
+}
