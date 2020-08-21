@@ -24,9 +24,35 @@
 //     console.log('I hate Chinese')
 // }
 
-let age = prompt('what is your age?');
-if (age < 10)
-alert('You are too young');
-else if (age < 18)
-alert('We can go out for a walk');
-alert('You can watch the movie');
+// let age = prompt('what is your age?');
+// if (age < 10)
+// alert('You are too young');
+// else if (age < 18)
+// alert('We can go out for a walk');
+// alert('You can watch the movie');
+
+// let item1 = 'bun':
+// let item2 = 'pho';
+// let item3 = 'com rang';
+
+// let menu = [];
+// console.log(menu);
+
+// let menu = ['chao ga'];
+// console.log(menu);
+
+let menu = ['chao ga', 'burger', 'com ga'];
+console.log(menu);
+
+let filmList = ['Alias', 'Hero', 'Painted skin'];
+console.log(filmList);
+
+menu.push('khoai tay chien');
+console.log(menu);
+
+let newItem = prompt('Enter new item');
+menu.push(newItem);
+console.log(menu);
+
+
+
