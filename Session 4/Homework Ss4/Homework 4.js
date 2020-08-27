@@ -12,21 +12,21 @@ let dict = {
 // let keyword = prompt('Enter a key word');
 // if(keyword in dict){
 //     alert(`${keyword}\n ${dict[keyword]}`);
-// }else{
+// } else {
 //     alert('We cound not find your word: ' + keyword);
 // }
 
-console.log('4.2. Update your script so that it can let users contribute the explanation to the dictionary');
-while (true) {
-    let keyword = prompt("Enter a key word");
-    if (keyword in dict) {
-        alert(`${keyword}\n ${dict[keyword]}`);
-    } else {
-        let newExplain = prompt(`We cound not find the word : ${keyword} : leave your explaination`);
-        dict[keyword] = newExplain;
-        if (newExplain == null || newExplain == undefined) {          
-        } else {
-            alert("Done");
-        }
-    }
-}
+// console.log('4.2. Update your script so that it can let users contribute the explanation to the dictionary');
+// while (true) {
+//     let keyword = prompt("Enter a key word");
+//     if (keyword in dict) {
+//         alert(`${keyword}\n ${dict[keyword]}`);
+//     } else {
+//         let newExplain = prompt(`We cound not find the word : ${keyword} : leave your explaination`);
+//         dict[keyword] = newExplain;
+//         if (newExplain == null || newExplain == undefined) {          
+//         } else {
+//             alert("Done");
+//         }
+//     }
+// }
