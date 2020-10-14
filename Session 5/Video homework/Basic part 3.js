@@ -40,7 +40,7 @@ const inventory = [
     
         price: 30000,
     
-        brand: Dell,
+        brand: 'Dell',
     
         quantity: 1,
     
@@ -86,10 +86,28 @@ const inventory = [
     
         name: 'HP Pavilion',
     
-        brand: ‘HP’,
+        brand: 'HP',
     
         price: 14000,
     
         quantity: 7,
     
     },]
+
+for (let item of inventory) {
+    for (let x in item) {
+        console.log($(x): ${item[x]})
+    }
+}
+// console.log('------------------');
+
+console.log(inventory);
+console.log('3. The above data is good to deal with all of the laptops equally, but when it comes to grouping the items by brand, it should be reshaped as below. Write a program to do the reshaping from inventory, from now, use the reshaped data to process');
+// inventory.sort();
+let inventoryByBrand = {};
+
+console.log(inventory);
+console.log('4.From inventoryByBrand, write a program to count the generations of a certain brand in the inventory');
+// let count = prompt('Which brand?');
+
+    

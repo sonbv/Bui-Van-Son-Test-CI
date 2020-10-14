@@ -1,0 +1,41 @@
+body {
+    display :flex;
+    width:900px;
+    height:700px;
+    text-align: center;
+    margin-left:33%
+}
+
+#hinhNen{
+    background-color: gray;
+    color:white;
+    height: 500px;
+    text-align-last: center;
+}
+
+#tuaDe {
+    background-color: black;
+    text-align: center;
+    text-emphasis-color: white;
+    font-weight: lighter;
+    font-size: large;
+    height: 25px;
+    
+}
+
+.content{
+    background-color: gray;
+}
+
+#quaySo {
+    background-color: brown;
+}
+
+#inputNumber {
+    width: 250px;
+}
+
+#noiDung {
+    width: 500px;
+    text-emphasis-color: black;
+}
